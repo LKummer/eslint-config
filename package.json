@@ -1,6 +1,6 @@
 {
   "name": "@lkummer/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Personalized ESLint configuration",
   "homepage": "https://github.com/LKummer/eslint-config",
   "bugs": {

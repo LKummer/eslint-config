@@ -48,7 +48,6 @@
     "no-shadow": "warn",
     "no-throw-literal": "error",
     "no-undef-init": "warn",
-    "no-undefined": "error",
     "no-unneeded-ternary": "error",
     "no-useless-call": "error",
     "no-useless-computed-key": "error",
