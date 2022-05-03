@@ -1,0 +1,32 @@
+{
+  "name": "@lkummer/eslint-config",
+  "version": "1.0.0",
+  "description": "Personalized ESLint configuration",
+  "homepage": "https://github.com/LKummer/eslint-config",
+  "bugs": {
+    "url": "https://github.com/LKummer/eslint-config/issues"
+  },
+  "author": "LKummer",
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "src/*"
+  ],
+  "scripts": {
+    "test": "npx eslint --config src/eslintrc.json .",
+    "lint": "prettier --check .",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "eslint": "^8.14.0",
+    "prettier": "^2.6.2"
+  },
+  "peerDependencies": {
+    "eslint": ">= 8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LKummer/eslint-config.git"
+  }
+}
